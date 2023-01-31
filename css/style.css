@@ -33,6 +33,10 @@ body {
   --btn-bg-back-to-top: #0d369f;
   --navbar-toggler-bg: ;
   --service-bg-color: #ffffff;
+  --studious-bg-color: #ffffff;
+  --studious-title-color: #060e1f;
+  --studious-text-color: #898989;
+  --studious-bgicon-color: #e9edf7;
 }
 .dark {
   --box-shadow-dropmenu: none;
@@ -52,6 +56,10 @@ body {
   --footer-body-bg-color: #060e1f;
   --btn-bg-back-to-top: #4867b0;
   --service-bg-color: #060e1f;
+  --studious-bg-color: #060e1f;
+  --studious-title-color: #ffffff;
+  --studious-text-color: #9c9d9f;
+  --studious-bgicon-color: #262c3d;
 }
 img {
   width: 100%;
@@ -634,4 +642,44 @@ nav#site-nav.scroll-effect {
 }
 .w3l-bottom-grids-6 .area-box.color_4 {
   background-color: #1ee697;
+}
+/* studious */
+.Studious {
+  padding-top: 100px;
+  background-color: var(--studious-bg-color);
+}
+.studious {
+  text-align: center;
+  padding: 0px 30px;
+}
+.studious .feature-icon i {
+  border: 1px var(--studious-bgicon-color) solid;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: var(--studious-bgicon-color);
+  color: #0d369f;
+  margin-bottom: 20px;
+}
+.studious p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--studious-text-color);
+}
+.studious a {
+  text-decoration: none;
+  transition: all 0.1s;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: var(--studious-title-color);
+}
+.studious a:hover {
+  color: var(--hover-to-orange);
+}
+.studious h3:first-of-type {
+  color: var(--studious-title-color);
 }
