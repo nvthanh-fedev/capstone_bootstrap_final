@@ -33,6 +33,10 @@ body {
   --btn-bg-back-to-top: #0d369f;
   --navbar-toggler-bg: ;
   --service-bg-color: #ffffff;
+  --section-bg-color: #ffffff;
+  --section-title-color: #060e1f;
+  --section-text-color: #898989;
+  --section-bgicon-color: #e9edf7;
 }
 .dark {
   --box-shadow-dropmenu: none;
@@ -52,6 +56,10 @@ body {
   --footer-body-bg-color: #060e1f;
   --btn-bg-back-to-top: #4867b0;
   --service-bg-color: #060e1f;
+  --section-bg-color: #060e1f;
+  --section-title-color: #ffffff;
+  --section-text-color: #b7b7b7;
+  --section-bgicon-color: #151e38;
 }
 img {
   width: 100%;
@@ -634,4 +642,42 @@ nav#site-nav.scroll-effect {
 }
 .w3l-bottom-grids-6 .area-box.color_4 {
   background-color: #1ee697;
+}
+#section .section_services {
+  background: url(../img/bg3.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#section {
+  background-color: var(--section-bg-color);
+}
+#section .icon i {
+  border: 1px var(--section-bgicon-color) solid;
+  font-size: 28px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: var(--section-bgicon-color);
+  color: #0d369f;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#section .icon {
+  margin-right: 20px;
+}
+#section .col-md-6 {
+  padding: 20px 20px;
+}
+#section .d-flex {
+  background-color: var(--section-bg-color);
+  padding: 39px 25px 20px 29px;
+  border-radius: 8px;
+}
+#section .icon_info h3 {
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--section-title-color);
+}
+#section .icon_info p {
+  color: var(--section-text-color);
 }
