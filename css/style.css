@@ -685,4 +685,42 @@ nav#site-nav.scroll-effect {
 #section .icon_info p {
   color: var(--section-text-color);
 }
-/* fix */
+.Studious {
+  padding-top: 100px;
+  background-color: var(--studious-bg-color);
+}
+.studious {
+  text-align: center;
+  padding: 0px 30px;
+}
+.studious .feature-icon i {
+  border: 1px var(--studious-bgicon-color) solid;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: var(--studious-bgicon-color);
+  color: #0d369f;
+  margin-bottom: 20px;
+}
+.studious p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--studious-text-color);
+}
+.studious a {
+  text-decoration: none;
+  transition: all 0.1s;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: var(--studious-title-color);
+}
+.studious a:hover {
+  color: var(--hover-to-orange);
+}
+.studious h3:first-of-type {
+  color: var(--studious-title-color);
+}
