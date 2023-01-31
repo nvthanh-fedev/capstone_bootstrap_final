@@ -33,10 +33,10 @@ body {
   --btn-bg-back-to-top: #0d369f;
   --navbar-toggler-bg: ;
   --service-bg-color: #ffffff;
-  --studious-bg-color: #ffffff;
-  --studious-title-color: #060e1f;
-  --studious-text-color: #898989;
-  --studious-bgicon-color: #e9edf7;
+  --section-bg-color: #ffffff;
+  --section-title-color: #060e1f;
+  --section-text-color: #898989;
+  --section-bgicon-color: #e9edf7;
 }
 .dark {
   --box-shadow-dropmenu: none;
@@ -56,10 +56,17 @@ body {
   --footer-body-bg-color: #060e1f;
   --btn-bg-back-to-top: #4867b0;
   --service-bg-color: #060e1f;
+<<<<<<< HEAD
   --studious-bg-color: #060e1f;
   --studious-title-color: #ffffff;
   --studious-text-color: #9c9d9f;
   --studious-bgicon-color: #262c3d;
+=======
+  --section-bg-color: #060e1f;
+  --section-title-color: #ffffff;
+  --section-text-color: #b7b7b7;
+  --section-bgicon-color: #151e38;
+>>>>>>> giang-branch3-section
 }
 img {
   width: 100%;
@@ -643,43 +650,41 @@ nav#site-nav.scroll-effect {
 .w3l-bottom-grids-6 .area-box.color_4 {
   background-color: #1ee697;
 }
-/* studious */
-.Studious {
-  padding-top: 100px;
-  background-color: var(--studious-bg-color);
+#section .section_services {
+  background: url(../img/bg3.jpg) no-repeat bottom;
+  background-size: cover;
 }
-.studious {
-  text-align: center;
-  padding: 0px 30px;
+#section {
+  background-color: var(--section-bg-color);
 }
-.studious .feature-icon i {
-  border: 1px var(--studious-bgicon-color) solid;
-  font-size: 30px;
+#section .icon i {
+  border: 1px var(--section-bgicon-color) solid;
+  font-size: 28px;
   border-radius: 50%;
   width: 70px;
   height: 70px;
   line-height: 70px;
-  background-color: var(--studious-bgicon-color);
+  background-color: var(--section-bgicon-color);
   color: #0d369f;
   margin-bottom: 20px;
+  text-align: center;
 }
-.studious p {
-  margin-top: 20px;
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--studious-text-color);
+#section .icon {
+  margin-right: 20px;
 }
-.studious a {
-  text-decoration: none;
-  transition: all 0.1s;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: 600;
-  color: var(--studious-title-color);
+#section .col-md-6 {
+  padding: 20px 20px;
 }
-.studious a:hover {
-  color: var(--hover-to-orange);
+#section .d-flex {
+  background-color: var(--section-bg-color);
+  padding: 39px 25px 20px 29px;
+  border-radius: 8px;
 }
-.studious h3:first-of-type {
-  color: var(--studious-title-color);
+#section .icon_info h3 {
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--section-title-color);
+}
+#section .icon_info p {
+  color: var(--section-text-color);
 }
