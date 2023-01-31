@@ -60,6 +60,10 @@ body {
   --section-title-color: #ffffff;
   --section-text-color: #b7b7b7;
   --section-bgicon-color: #151e38;
+  --studious-bg-color: #ffffff;
+  --studious-title-color: #060e1f;
+  --studious-text-color: #898989;
+  --studious-bgicon-color: #e9edf7;
 }
 img {
   width: 100%;
@@ -681,3 +685,4 @@ nav#site-nav.scroll-effect {
 #section .icon_info p {
   color: var(--section-text-color);
 }
+/* fix */
