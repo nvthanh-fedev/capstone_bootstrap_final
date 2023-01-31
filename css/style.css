@@ -56,17 +56,10 @@ body {
   --footer-body-bg-color: #060e1f;
   --btn-bg-back-to-top: #4867b0;
   --service-bg-color: #060e1f;
-<<<<<<< HEAD
-  --studious-bg-color: #060e1f;
-  --studious-title-color: #ffffff;
-  --studious-text-color: #9c9d9f;
-  --studious-bgicon-color: #262c3d;
-=======
   --section-bg-color: #060e1f;
   --section-title-color: #ffffff;
   --section-text-color: #b7b7b7;
   --section-bgicon-color: #151e38;
->>>>>>> giang-branch3-section
 }
 img {
   width: 100%;
