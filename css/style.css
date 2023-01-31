@@ -46,6 +46,10 @@ body {
   --feedback-text-color: #898989;
   --feedback-itembg-color: #ffffff;
   --box-shadow-color: rgb(4 20 69 / 10%);
+  --instructors-bg-color: #ffffff;
+  --instructors-title-color: #060e1f;
+  --instructors-text-color: #898989;
+  --instructors-itembg-color: #ffffff;
 }
 .dark {
   --box-shadow-dropmenu: none;
@@ -78,6 +82,10 @@ body {
   --feedback-text-color: #b7b7b7;
   --feedback-itembg-color: #09173a;
   --box-shadow-color: hsla(222, 34%, 17%, 1);
+  --instructors-bg-color: #161c2d;
+  --instructors-title-color: #ffffff;
+  --instructors-text-color: #b7b7b7;
+  --instructors-itembg-color: #161c2d;
 }
 img {
   width: 100%;
@@ -794,4 +802,81 @@ nav#site-nav.scroll-effect {
 }
 .feedback p {
   color: var(--feedback-text-color);
+}
+#Instructors {
+  background-color: var(--instructors-bg-color);
+}
+#Instructors .col-lg-3 {
+  border-radius: 8px;
+}
+#Instructors .card {
+  box-shadow: 0 20px 62px var(--box-shadow-color);
+  background-color: var(--instructors-itembg-color);
+}
+#Instructors .intro h3:last-of-type {
+  font-size: 40px;
+  font-weight: 600;
+}
+#Instructors .intro h3:first-of-type {
+  font-size: 45px;
+  color: var(--instructors-title-color);
+}
+#Instructors .card p {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#Instructors .row img {
+  padding: 10px;
+}
+#Instructors .col-lg-3 .card .img-item {
+  z-index: 1;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+}
+#Instructors .info {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  background: rgb(8 8 8 / 29%);
+  padding: 20px 0;
+  transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  width: 93%;
+  text-align: center;
+  opacity: 0;
+  margin-left: 10px;
+  margin-bottom: 9px;
+}
+#Instructors .card .img-item:hover .info {
+  color: #0d369f;
+  opacity: 1;
+}
+#Instructors .info i {
+  margin-left: 5px;
+  border-radius: 50%;
+  font-size: 15px;
+  width: 35px;
+  height: 32px;
+  border: 1px solid white;
+  line-height: 30px;
+  background-color: white;
+}
+#Instructors .info i:hover {
+  background-color: rgb(181, 181, 181, 0.5);
+}
+#Instructors .card:hover a {
+  color: var(--hover-to-orange);
+  transition: all 0.5s;
+}
+#Instructors .card-body a {
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--instructors-title-color);
+}
+#Instructors .card-body p {
+  color: var(--instructors-text-color);
+}
+
+.mt-4 a {
 }
