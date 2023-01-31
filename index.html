@@ -1,569 +1,766 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Google font -->
-    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!--Link font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- link style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <title>New</title>
     <!-- icon logo -->
-    <link rel="icon"
-        href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
-        type="image/icon type" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+      type="image/icon type"
+    />
     <!-- jquery -->
     <script src="js/jquery.min.js"></script>
-</head>
+  </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70" id="myBody">
-
+  <body
+    data-bs-spy="scroll"
+    data-bs-target=".navbar"
+    data-bs-offset="70"
+    id="myBody"
+  >
     <!-- start my-top-nav -->
     <div id="my-top-nav">
-        <div class="top-nav">
-            <div class="container-fluid">
-                <div class="row justify-content-between">
-                    <div class="col-auto">
-                        <p>Have any question ?</p>
-                        <p><i class="fa-solid fa-signal"></i> +1(21) 234 4567</p>
-                        <p><i class="bx bxs-envelope"></i>mail@example.com</p>
-                    </div>
-                    <div class="col-auto social-icons">
-                        <a href="#"><i class="bx bxl-facebook"></i></a>
-                        <a href="#"><i class="bx bxl-twitter"></i></a>
-                        <a href="#"><i class="bx bxl-instagram"></i></a>
-                        <a href="#"><i class="bx bxl-linkedin"></i></a>
-                    </div>
-                </div>
+      <div class="top-nav">
+        <div class="container-fluid">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p>Have any question ?</p>
+              <p><i class="fa-solid fa-signal"></i> +1(21) 234 4567</p>
+              <p><i class="bx bxs-envelope"></i>mail@example.com</p>
             </div>
+            <div class="col-auto social-icons">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- end my-top-nav -->
 
     <!-- start site-nav -->
     <nav class="navbar navbar-expand-lg sticky-top" id="site-nav">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="" />
-                Studious
-            </a>
-            <div class="d-flex">
-                <div class="theme-wrap">
-                    <button class="change-theme-max-width-991px theme-btn" href="#" id="switchButton1"
-                        title="Click to switch theme">
-                        <i class="bx bx-moon"></i>
-                        <i class="bx bx-sun"></i>
-                    </button>
-                </div>
-                <button id="switchCloseNavbarTogger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" id="idNavbarTogger">
-                        <i class="bx bx-menu"></i>
-                        <i class="bx bx-x"></i>
-                    </span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#course">Cources</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="true">
-                                Pages <span class="fa fa-angle-down"></span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">blog POSTS</a>
-                                <a class="dropdown-item" href="#">blog SINGLE</a>
-                                <a class="dropdown-item" href="#">404 PAGES</a>
-                                <a class="dropdown-item" href="#">EMAIL TEMPLATE</a>
-                                <a class="dropdown-item" href="#">LANDING PAGE</a>
-                                <a class="dropdown-item" href="#">SHORTCODES</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Contact Us</a>
-                    </li>
-                </ul>
-                <div class="search-right ml-lg-3">
-                    <form class="search-box position-relative">
-                        <div class="input-search">
-                            <input type="search" placeholder="Enter Keyword" name="search" />
-                        </div>
-                        <button type="submit" class="btn search-btn">
-                            <i class="bx bx-search"></i>
-                        </button>
-                    </form>
-                </div>
-                <div class="theme-wrap">
-                    <button class="change-theme theme-btn" href="#" id="switchButton2" title="Click to switch theme">
-                        <i class="bx bx-moon"></i>
-                        <i class="bx bx-sun"></i>
-                    </button>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="" />
+          Studious
+        </a>
+        <div class="d-flex">
+          <div class="theme-wrap">
+            <button
+              class="change-theme-max-width-991px theme-btn"
+              href="#"
+              id="switchButton1"
+              title="Click to switch theme"
+            >
+              <i class="bx bx-moon"></i>
+              <i class="bx bx-sun"></i>
+            </button>
+          </div>
+          <button
+            id="switchCloseNavbarTogger"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" id="idNavbarTogger">
+              <i class="bx bx-menu"></i>
+              <i class="bx bx-x"></i>
+            </span>
+          </button>
         </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#course">Cources</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                >
+                  Pages <span class="fa fa-angle-down"></span>
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">blog POSTS</a>
+                  <a class="dropdown-item" href="#">blog SINGLE</a>
+                  <a class="dropdown-item" href="#">404 PAGES</a>
+                  <a class="dropdown-item" href="#">EMAIL TEMPLATE</a>
+                  <a class="dropdown-item" href="#">LANDING PAGE</a>
+                  <a class="dropdown-item" href="#">SHORTCODES</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Contact Us</a>
+            </li>
+          </ul>
+          <div class="search-right ml-lg-3">
+            <form class="search-box position-relative">
+              <div class="input-search">
+                <input
+                  type="search"
+                  placeholder="Enter Keyword"
+                  name="search"
+                />
+              </div>
+              <button type="submit" class="btn search-btn">
+                <i class="bx bx-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="theme-wrap">
+            <button
+              class="change-theme theme-btn"
+              href="#"
+              id="switchButton2"
+              title="Click to switch theme"
+            >
+              <i class="bx bx-moon"></i>
+              <i class="bx bx-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </nav>
     <!-- end site-nav -->
 
     <!-- start slider-banner -->
     <div class="owl-carousel owl-theme hero-slider" id="slider-banner">
-        <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-white">
-                        <h1 class="display-3 my-4">
-                            Master the <br />
-                            Skills to Drive <br />
-                            your Career
-                        </h1>
-                        <a href="#" class="btn btn-outline-light bg-white text-dark">
-                            Know More
-                            <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+      <div class="slide slide1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-white">
+              <h1 class="display-3 my-4">
+                Master the <br />
+                Skills to Drive <br />
+                your Career
+              </h1>
+              <a href="#" class="btn btn-outline-light bg-white text-dark">
+                Know More
+                <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
+              </a>
             </div>
+          </div>
         </div>
-        <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-white">
-                        <h1 class="display-3 my-4">
-                            Studious is the <br />
-                            best choice <br />
-                            for everyone
-                        </h1>
-                        <a href="#" class="btn btn-outline-light bg-white text-dark">
-                            Know More
-                            <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+      </div>
+      <div class="slide slide2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-white">
+              <h1 class="display-3 my-4">
+                Studious is the <br />
+                best choice <br />
+                for everyone
+              </h1>
+              <a href="#" class="btn btn-outline-light bg-white text-dark">
+                Know More
+                <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- end slider-banner -->
-
+    <!-- SERVICES-->
+    <section class="w3l-bottom-grids-6 pb-lg-5 text-center" id="services">
+      <div class="container">
+        <div
+          class="grids-area-hny main-cont-wthree-fea row flex-wrap text-light"
+        >
+          <div class="item col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+            <div class="area-box bg-primary">
+              <i class="fa-solid fa-gears w-auto p-3"></i>
+              <h4>
+                <a href="# " class="title-head"
+                  >Engineering &amp; Architecture</a
+                >
+              </h4>
+            </div>
+          </div>
+          <div class="item col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+            <div class="area-box color_2">
+              <i class="fa-solid fa-book w-auto p-3"></i>
+              <h4>
+                <a href="#" class="title-head">Learning Management</a>
+              </h4>
+            </div>
+          </div>
+          <div class="item col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+            <div class="area-box color_3">
+              <i class="fa-solid fa-mug-saucer w-auto p-3"></i>
+              <h4>
+                <a href="#" class="title-head">Business Management </a>
+              </h4>
+            </div>
+          </div>
+          <div class="item col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-3">
+            <div class="area-box color_4">
+              <i class="fa-regular fa-hourglass-half w-auto p-3"></i>
+              <h4>
+                <a href="#" class="title-head"
+                  >Artificial &amp; Intelligence
+                </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- start course -->
     <section id="course">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <div class="d-flex justify-content-center">
-                            <h3>Pick a Course to</h3>
-                            <h3>Get Started</h3>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <div class="d-flex justify-content-center">
+                <h3>Pick a Course to</h3>
+                <h3>Get Started</h3>
+              </div>
             </div>
-            <div class="row course-content">
-                <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
-                    <article class="course-post">
-                        <img src="img/c1.jpg" alt="" />
-                        <div class="mete-list d-flex">
-                            <a href="#" class="tag">Art</a>
-                            <a href="#" class="tag">Design</a>
-                        </div>
-                        <div class="discount">
-                            <a href="#" class="tag">$400</a>
-                        </div>
-                        <div style="padding: 20px">
-                            <div class="content">
-                                <div class="d-flex justify-content-between">
-                                    <div class="level d-flex">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a href="">Intermediate</a>
-                                    </div>
-                                    <div class="time d-flex">
-                                        <i class="far fa-clock"></i>
-                                        <a href="">10 week</a>
-                                    </div>
-                                </div>
-                                <h5>Donec sed teus enime</h5>
-                                <p>
-                                    Sed do eiusmod tempor incididunt ut <br />
-                                    labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item">
-                                <ul class="rating-list d-flex justify-content-between">
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
-                                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
-                    <article class="course-post">
-                        <img src="img/c2.jpg" alt="" />
-                        <div class="mete-list d-flex">
-                            <a href="#" class="tag">Digital</a>
-                            <a href="#" class="tag">Learn</a>
-                            <a href="#" class="tag">10% Off</a>
-                        </div>
-                        <div class="discount">
-                            <a href="#" class="tag">$900</a>
-                        </div>
-                        <div style="padding: 20px">
-                            <div class="content">
-                                <div class="d-flex justify-content-between">
-                                    <div class="level d-flex">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a href="">High</a>
-                                    </div>
-                                    <div class="time d-flex">
-                                        <i class="far fa-clock"></i>
-                                        <a href="">10 week</a>
-                                    </div>
-                                </div>
-                                <h5>It's enim ad minim ate</h5>
-                                <p>
-                                    Sed do eiusmod tempor incididunt ut <br />
-                                    labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item">
-                                <ul class="rating-list d-flex justify-content-between">
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
-                                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
-                    <article class="course-post">
-                        <img src="img/c3.jpg" alt="" />
-                        <div class="mete-list d-flex">
-                            <a href="#" class="tag"> Html </a>
-                            <a href="#" class="tag"> Java </a>
-                        </div>
-                        <div class="discount">
-                            <a href="#" class="tag">$99 </a>
-                        </div>
-                        <div style="padding: 20px">
-                            <div class="content">
-                                <div class="d-flex justify-content-between">
-                                    <div class="level d-flex">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a href=""> Beginner </a>
-                                    </div>
-                                    <div class="time d-flex">
-                                        <i class="far fa-clock"></i>
-                                        <a href="">10 week</a>
-                                    </div>
-                                </div>
-                                <h5>Ullamco laboris nisi uts</h5>
-                                <p>
-                                    Sed do eiusmod tempor incididunt ut <br />
-                                    labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item">
-                                <ul class="rating-list d-flex justify-content-between">
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
-                                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
-                    <article class="course-post">
-                        <img src="img/c4.jpg" alt="" />
-                        <div class="mete-list d-flex">
-                            <a href="#" class="tag"> Webstie </a>
-                            <a href="#" class="tag"> Wordpress </a>
-                        </div>
-                        <div class="discount">
-                            <a href="#" class="tag">$369 </a>
-                        </div>
-                        <div style="padding: 20px">
-                            <div class="content">
-                                <div class="d-flex justify-content-between">
-                                    <div class="level d-flex">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a href=""> Intermediate </a>
-                                    </div>
-                                    <div class="time d-flex">
-                                        <i class="far fa-clock"></i>
-                                        <a href="">10 week</a>
-                                    </div>
-                                </div>
-                                <h5>Donec sed teus enime</h5>
-                                <p>
-                                    Sed do eiusmod tempor incididunt ut <br />
-                                    labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item">
-                                <ul class="rating-list d-flex justify-content-between">
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
-                                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
-                    <article class="course-post">
-                        <img src="img/c5.jpg" alt="" />
-                        <div class="mete-list d-flex">
-                            <a href="#" class="tag"> Marketing </a>
-                            <a href="#" class="tag"> Edu </a>
-                        </div>
-                        <div class="discount">
-                            <a href="#" class="tag">$ 499 </a>
-                        </div>
-                        <div style="padding: 20px">
-                            <div class="content">
-                                <div class="d-flex justify-content-between">
-                                    <div class="level d-flex">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a href=""> High </a>
-                                    </div>
-                                    <div class="time d-flex">
-                                        <i class="far fa-clock"></i>
-                                        <a href="">10 week</a>
-                                    </div>
-                                </div>
-                                <h5>It's enim ad minim ate</h5>
-                                <p>
-                                    Sed do eiusmod tempor incididunt ut <br />
-                                    labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item">
-                                <ul class="rating-list d-flex justify-content-between">
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
-                                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
-                    <article class="course-post">
-                        <img src="img/c6.jpg" alt="" />
-                        <div class="mete-list d-flex">
-                            <a href="#" class="tag"> Study </a>
-                            <a href="#" class="tag"> Academic </a>
-                        </div>
-                        <div class="discount">
-                            <a href="#" class="tag">$ 289 </a>
-                        </div>
-                        <div style="padding: 20px">
-                            <div class="content">
-                                <div class="d-flex justify-content-between">
-                                    <div class="level d-flex">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a href=""> Beginner </a>
-                                    </div>
-                                    <div class="time d-flex">
-                                        <i class="far fa-clock"></i>
-                                        <a href="">10 week</a>
-                                    </div>
-                                </div>
-                                <h5>Ullamco laboris nisi uts</h5>
-                                <p>
-                                    Sed do eiusmod tempor incididunt ut <br />
-                                    labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item">
-                                <ul class="rating-list d-flex justify-content-between">
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
-                                        class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="text-center mt-5 btn-course">
-                <a class="btn btn-style btn-style-secondary mt-sm-3" href="about.html">
-                    Browse more courses<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
-            </div>
+          </div>
         </div>
+        <div class="row course-content">
+          <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
+            <article class="course-post">
+              <img src="img/c1.jpg" alt="" />
+              <div class="mete-list d-flex">
+                <a href="#" class="tag">Art</a>
+                <a href="#" class="tag">Design</a>
+              </div>
+              <div class="discount">
+                <a href="#" class="tag">$400</a>
+              </div>
+              <div style="padding: 20px">
+                <div class="content">
+                  <div class="d-flex justify-content-between">
+                    <div class="level d-flex">
+                      <i class="fa-solid fa-signal"></i>
+                      <a href="">Intermediate</a>
+                    </div>
+                    <div class="time d-flex">
+                      <i class="far fa-clock"></i>
+                      <a href="">10 week</a>
+                    </div>
+                  </div>
+                  <h5>Donec sed teus enime</h5>
+                  <p>
+                    Sed do eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item"
+                >
+                  <ul class="rating-list d-flex justify-content-between">
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-style btn-style-primary" href="course.html"
+                    >Know Details<i
+                      class="fa fa-arrow-right ml-2"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
+            <article class="course-post">
+              <img src="img/c2.jpg" alt="" />
+              <div class="mete-list d-flex">
+                <a href="#" class="tag">Digital</a>
+                <a href="#" class="tag">Learn</a>
+                <a href="#" class="tag">10% Off</a>
+              </div>
+              <div class="discount">
+                <a href="#" class="tag">$900</a>
+              </div>
+              <div style="padding: 20px">
+                <div class="content">
+                  <div class="d-flex justify-content-between">
+                    <div class="level d-flex">
+                      <i class="fa-solid fa-signal"></i>
+                      <a href="">High</a>
+                    </div>
+                    <div class="time d-flex">
+                      <i class="far fa-clock"></i>
+                      <a href="">10 week</a>
+                    </div>
+                  </div>
+                  <h5>It's enim ad minim ate</h5>
+                  <p>
+                    Sed do eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item"
+                >
+                  <ul class="rating-list d-flex justify-content-between">
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-style btn-style-primary" href="course.html"
+                    >Know Details<i
+                      class="fa fa-arrow-right ml-2"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
+            <article class="course-post">
+              <img src="img/c3.jpg" alt="" />
+              <div class="mete-list d-flex">
+                <a href="#" class="tag"> Html </a>
+                <a href="#" class="tag"> Java </a>
+              </div>
+              <div class="discount">
+                <a href="#" class="tag">$99 </a>
+              </div>
+              <div style="padding: 20px">
+                <div class="content">
+                  <div class="d-flex justify-content-between">
+                    <div class="level d-flex">
+                      <i class="fa-solid fa-signal"></i>
+                      <a href=""> Beginner </a>
+                    </div>
+                    <div class="time d-flex">
+                      <i class="far fa-clock"></i>
+                      <a href="">10 week</a>
+                    </div>
+                  </div>
+                  <h5>Ullamco laboris nisi uts</h5>
+                  <p>
+                    Sed do eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item"
+                >
+                  <ul class="rating-list d-flex justify-content-between">
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-style btn-style-primary" href="course.html"
+                    >Know Details<i
+                      class="fa fa-arrow-right ml-2"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
+            <article class="course-post">
+              <img src="img/c4.jpg" alt="" />
+              <div class="mete-list d-flex">
+                <a href="#" class="tag"> Webstie </a>
+                <a href="#" class="tag"> Wordpress </a>
+              </div>
+              <div class="discount">
+                <a href="#" class="tag">$369 </a>
+              </div>
+              <div style="padding: 20px">
+                <div class="content">
+                  <div class="d-flex justify-content-between">
+                    <div class="level d-flex">
+                      <i class="fa-solid fa-signal"></i>
+                      <a href=""> Intermediate </a>
+                    </div>
+                    <div class="time d-flex">
+                      <i class="far fa-clock"></i>
+                      <a href="">10 week</a>
+                    </div>
+                  </div>
+                  <h5>Donec sed teus enime</h5>
+                  <p>
+                    Sed do eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item"
+                >
+                  <ul class="rating-list d-flex justify-content-between">
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-style btn-style-primary" href="course.html"
+                    >Know Details<i
+                      class="fa fa-arrow-right ml-2"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
+            <article class="course-post">
+              <img src="img/c5.jpg" alt="" />
+              <div class="mete-list d-flex">
+                <a href="#" class="tag"> Marketing </a>
+                <a href="#" class="tag"> Edu </a>
+              </div>
+              <div class="discount">
+                <a href="#" class="tag">$ 499 </a>
+              </div>
+              <div style="padding: 20px">
+                <div class="content">
+                  <div class="d-flex justify-content-between">
+                    <div class="level d-flex">
+                      <i class="fa-solid fa-signal"></i>
+                      <a href=""> High </a>
+                    </div>
+                    <div class="time d-flex">
+                      <i class="far fa-clock"></i>
+                      <a href="">10 week</a>
+                    </div>
+                  </div>
+                  <h5>It's enim ad minim ate</h5>
+                  <p>
+                    Sed do eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item"
+                >
+                  <ul class="rating-list d-flex justify-content-between">
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-style btn-style-primary" href="course.html"
+                    >Know Details<i
+                      class="fa fa-arrow-right ml-2"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="course-item col-sm-12 col-lg-6 col-md-6 col-xl-4">
+            <article class="course-post">
+              <img src="img/c6.jpg" alt="" />
+              <div class="mete-list d-flex">
+                <a href="#" class="tag"> Study </a>
+                <a href="#" class="tag"> Academic </a>
+              </div>
+              <div class="discount">
+                <a href="#" class="tag">$ 289 </a>
+              </div>
+              <div style="padding: 20px">
+                <div class="content">
+                  <div class="d-flex justify-content-between">
+                    <div class="level d-flex">
+                      <i class="fa-solid fa-signal"></i>
+                      <a href=""> Beginner </a>
+                    </div>
+                    <div class="time d-flex">
+                      <i class="far fa-clock"></i>
+                      <a href="">10 week</a>
+                    </div>
+                  </div>
+                  <h5>Ullamco laboris nisi uts</h5>
+                  <p>
+                    Sed do eiusmod tempor incididunt ut <br />
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-5 pt-4 footer-course-item"
+                >
+                  <ul class="rating-list d-flex justify-content-between">
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#rate"
+                        ><i class="fa fa-star" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-style btn-style-primary" href="course.html"
+                    >Know Details<i
+                      class="fa fa-arrow-right ml-2"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="text-center mt-5 btn-course">
+          <a
+            class="btn btn-style btn-style-secondary mt-sm-3"
+            href="about.html"
+          >
+            Browse more courses<i
+              class="fa fa-arrow-right ml-2"
+              aria-hidden="true"
+            ></i
+          ></a>
+        </div>
+      </div>
     </section>
     <!-- end course -->
 
-        
-    
     <!-- start numbers -->
     <section id="numbers">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <div class="d-flex justify-content-center">
-                            <h3>Strength in</h3>
-                            <h3>Numbers</h3>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <div class="d-flex justify-content-center">
+                <h3>Strength in</h3>
+                <h3>Numbers</h3>
+              </div>
             </div>
-            <div class="row number-count">
-                <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
-                    <h3><span class="counter">6,300</span></h3>
-                    <h6>LEARNERS & COUNTING</h6>
-                </div>
-                <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
-                    <h3><span class="counter">638</span></h3>
-                    <h6>TOTAL COURSES</h6>
-                </div>
-                <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
-                    <h3><span class="counter">7,600</span></h3>
-                    <h6>SUCCESSFUL STUDENTS</h6>
-                </div>
-                <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
-                    <h3><span class="counter">36</span></h3>
-                    <h6>LANGUAGES</h6>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row number-count">
+          <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
+            <h3><span class="counter">6,300</span></h3>
+            <h6>LEARNERS & COUNTING</h6>
+          </div>
+          <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
+            <h3><span class="counter">638</span></h3>
+            <h6>TOTAL COURSES</h6>
+          </div>
+          <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
+            <h3><span class="counter">7,600</span></h3>
+            <h6>SUCCESSFUL STUDENTS</h6>
+          </div>
+          <div class="col-sm-12 col-lg-3 col-md-6 col-xl-3 text-center">
+            <h3><span class="counter">36</span></h3>
+            <h6>LANGUAGES</h6>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- start numbers -->
 
-
-
-
     <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-            if (scroll >= 80 && $(window).width() > 991) {
-                $("#site-nav").addClass("scroll-effect");
-            } else {
-                $("#site-nav").removeClass("scroll-effect");
-            }
-        });
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 80 && $(window).width() > 991) {
+          $("#site-nav").addClass("scroll-effect");
+        } else {
+          $("#site-nav").removeClass("scroll-effect");
+        }
+      });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -578,11 +775,10 @@
     <!-- jquery counterup  -->
     <script src="/js/jquery.counterup.min.js"></script>
     <script>
-        $(".counter").counterUp({ delay: 10, time: 3200 });
-        console.log("Âsdasd");
+      $(".counter").counterUp({ delay: 10, time: 3200 });
+      console.log("Âsdasd");
     </script>
     <!-- change theme -->
     <script src="js/change-theme.js"></script>
-</body>
-
+  </body>
 </html>

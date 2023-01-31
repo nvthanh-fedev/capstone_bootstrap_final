@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +32,7 @@ body {
   --footer-body-bg-color: #060e1f;
   --btn-bg-back-to-top: #0d369f;
   --navbar-toggler-bg: ;
+  --service-bg-color: #ffffff;
 }
 .dark {
   --box-shadow-dropmenu: none;
@@ -51,6 +51,7 @@ body {
   --footer-top-icon-color: #4867b0;
   --footer-body-bg-color: #060e1f;
   --btn-bg-back-to-top: #4867b0;
+  --service-bg-color: #060e1f;
 }
 img {
   width: 100%;
@@ -587,3 +588,50 @@ nav#site-nav.scroll-effect {
 #numbers .number-count div:nth-child(3) {
   border-right: 1px solid rgba(88, 88, 88, 0.1176470588);
 } /*# sourceMappingURL=thanh.css.map */
+/* services */
+.area-box i {
+  font-size: 45px;
+}
+.w3l-bottom-grids-6 h4 a.title-head {
+  margin-top: 25px;
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+}
+.w3l-bottom-grids-6 h4 a.title-head:hover {
+  color: #000;
+}
+.w3l-bottom-grids-6 .area-box {
+  padding: 40px 27px;
+  z-index: 1;
+  border-radius: 9px;
+
+  position: relative;
+}
+#services .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.w3l-bottom-grids-6 {
+  margin-top: -7em;
+  position: relative;
+  background-color: var(--service-bg-color);
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+.w3l-bottom-grids-6 .area-box.color_2 {
+  background-color: #ffc949;
+}
+.w3l-bottom-grids-6 .area-box.color_3 {
+  background-color: #ff4f81;
+}
+.w3l-bottom-grids-6 .area-box.color_4 {
+  background-color: #1ee697;
+}

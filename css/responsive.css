@@ -72,7 +72,12 @@
     margin: auto;
     transform: translateX(0px);
   }
-  nav#site-nav .navbar-nav .nav-item:nth-child(4) .dropdown .dropdown-menu .dropdown-item {
+  nav#site-nav
+    .navbar-nav
+    .nav-item:nth-child(4)
+    .dropdown
+    .dropdown-menu
+    .dropdown-item {
     text-align: center;
   }
   nav#site-nav .change-theme {
@@ -113,13 +118,23 @@
     margin-left: 0px;
   }
   #slider-banner .slide1 {
-    background: linear-gradient(75deg, rgba(16, 16, 16, 0.34) 10%, rgba(230, 2, 100, 0)), url(../img/banner2.jpg);
+    background: linear-gradient(
+        75deg,
+        rgba(16, 16, 16, 0.34) 10%,
+        rgba(230, 2, 100, 0)
+      ),
+      url(../img/banner2.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #slider-banner .slide2 {
-    background: linear-gradient(75deg, rgba(16, 16, 16, 0.34) 10%, rgba(230, 2, 100, 0)), url(../img/banner3.jpg);
+    background: linear-gradient(
+        75deg,
+        rgba(16, 16, 16, 0.34) 10%,
+        rgba(230, 2, 100, 0)
+      ),
+      url(../img/banner3.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,4 +193,45 @@
     transition: all 0.25s ease-in-out;
     margin-left: 0px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */
+@media only screen and (max-width: 780px) {
+  #Instructors .col-lg-3 {
+    padding-top: 40px;
+  }
+  #Instructors .img-item img {
+    width: 100%;
+  }
+}
+
+/* @media (min-width: 576px) {
+  .container {
+    max-width: 617px;
+  }
+} */
+@media only screen and (max-width: 990px) {
+  #Instructors .col-lg-3 {
+    padding-top: 40px;
+  }
+  #Instructors .img-item img {
+    width: 100%;
+  }
+  #Instructors .card {
+    width: 90%;
+    margin-left: 20px;
+    align-items: center;
+  }
+  #services .item {
+    padding-top: 20px;
+  }
+  #services .row {
+    margin-top: -3em;
+  }
+  .feedback .container {
+    max-width: 980px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #services a {
+    font-size: 23px;
+  }
+}
