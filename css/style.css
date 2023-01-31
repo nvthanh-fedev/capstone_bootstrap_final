@@ -50,6 +50,11 @@ body {
   --instructors-title-color: #060e1f;
   --instructors-text-color: #898989;
   --instructors-itembg-color: #ffffff;
+  --secondary-color: #ff6e65;
+  --hover-to-orange: #ff6e65;
+  --contact-bg-color: #ffffff;
+  --contact-title-color: #060e1f;
+  --contact-text-color: #898989;
 }
 .dark {
   --box-shadow-dropmenu: none;
@@ -86,6 +91,9 @@ body {
   --instructors-title-color: #ffffff;
   --instructors-text-color: #b7b7b7;
   --instructors-itembg-color: #161c2d;
+  --contact-bg-color: #161c2d;
+  --contact-title-color: #ffffff;
+  --contact-text-color: #b7b7b7;
 }
 img {
   width: 100%;
@@ -878,5 +886,53 @@ nav#site-nav.scroll-effect {
   color: var(--instructors-text-color);
 }
 
-.mt-4 a {
+#contact {
+  background-color: var(--contact-bg-color);
+}
+#contact h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 50px;
+  color: var(--contact-title-color);
+}
+#contact p {
+  font-size: 18px;
+  line-height: 35px;
+  color: var(--contact-text-color);
+}
+#contact img {
+  width: 80%;
+}
+.btn-style:hover,
+.btn-style-secondary {
+  background: var(--secondary-color);
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.btn-style-secondary:hover {
+  background-color: var(--midnight-blue);
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.btn-style-primary {
+  color: var(--secondary-color);
+  padding: 0;
+  background: transparent;
+  font-size: 14px;
+}
+
+.btn-style-primary:hover {
+  color: var(--primary-color);
+  background: transparent;
+}
+.btn-style {
+  padding: 17px 35px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.25s ease-in-out;
 }
