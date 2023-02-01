@@ -54,6 +54,7 @@
     />
     <!-- link style -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/thanh.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <title>New</title>
     <!-- icon logo -->
@@ -131,9 +132,9 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#slider-banner">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#services">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#course">Cources</a>
@@ -162,7 +163,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#team">Contact Us</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
           <div class="search-right ml-lg-3">
@@ -1017,7 +1018,7 @@
       </div>
     </section>
     <!--contact-->
-    <section class="contact pb-5" id="contact">
+    <section class="contact" id="contact">
       <div class="container pb-md-5 pb-4 mb-5">
         <div class="row align-items-center justify-content-between">
           <div class="img-item col-lg-5 mb-lg-0 mb-4 text-center">
@@ -1047,6 +1048,125 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top row align-items-center">
+          <div class="footer-text col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <h2>Subscribe Us to join our Community</h2>
+            <p>Newsletter</p>
+          </div>
+          <div class="footer-form col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <form>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Email Address"
+              />
+              <button>Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom row justify-content-between container">
+          <div class="footer-item col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <h3>QUICK LINKS</h3>
+            <ul>
+              <li>
+                <a href="#slider-banner"> <i class="bx bx-chevrons-right"></i> Home </a>
+              </li>
+              <li>
+                <a href="#services"> <i class="bx bx-chevrons-right"></i> About </a>
+              </li>
+              <li>
+                <a href="#course"> <i class="bx bx-chevrons-right"></i> Course </a>
+              </li>
+              <li>
+                <a href="#contact"> <i class="bx bx-chevrons-right"></i> Contact </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <h3>HELP & SUPPORT</h3>
+            <ul>
+              <li>
+                <a href="#"> <i class="bx bx-chevrons-right"></i> Live chat </a>
+              </li>
+              <li>
+                <a href="#"> <i class="bx bx-chevrons-right"></i> Faq </a>
+              </li>
+              <li>
+                <a href="#"> <i class="bx bx-chevrons-right"></i> Support </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bx bx-chevrons-right"></i> Terms of Services
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <h3>CONTACT</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                  <p>info@example.com</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-phone"></i>
+                  <p>+44-000-888-999</p></a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>London, 235 Terry, 10001</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <h3>ABOUT</h3>
+            <ul>
+              <li>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab.
+                </p>
+              </li>
+              <li>
+                <a href=""> <i class="fab fa-facebook-f"></i> </a>
+                <a href=""> <i class="fab fa-linkedin-in"></i> </a>
+                <a href=""> <i class="fab fa-twitter"></i> </a>
+                <a href=""> <i class="fab fa-google-plus-g"></i> </a>
+                <a href=""> <i class="fab fa-github"></i> </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item col-xl-3 col-lg-3 col-md-6 col-sm-12"></div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row d-flex">
+            <div
+              class="footer-left col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center"
+            >
+              @2021 Studious. All rights reserved. Design by W3Layouts
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- back to top -->
+    <button class="btn btn-sm position-fixed" onclick="scrollToTop()" id="back-to-up">
+      <i class="fa fa-level-up-alt"></i>
+    </button>
 
     <script>
       $(window).on("scroll", function () {
