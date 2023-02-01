@@ -11,5 +11,5 @@ CAPSTONE BOOTSTRAP Responsive Website Template - Using Bootstrap, Html5, Css3
 - [Google sheet](https://docs.google.com/spreadsheets/d/1AOcS3xwMfimvs6zUWHmo_93UxjfcXxSuMYRJ0ZnVnsk/edit?usp=sharing)
 
 # Link deploy web
-- [Studios Bootstrap Template](cybersoft-capstone-bootstrap-studious-template-nvt-hntg.surge.sh)
+- [Studios Bootstrap Template](https://cybersoft-capstone-bootstrap-studious-template-nvt-hntg.surge.sh)
 
